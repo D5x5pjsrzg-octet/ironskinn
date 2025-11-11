@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IronGrip™ V2 — IronSkin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <!-- Google Tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <!-- TikTok Pixel -->
+  <script>
+    !(function (w, d, t) {
+      w.TiktokAnalyticsObject = t;
+      var ttq = (w[t] = w[t] || []);
+      ttq.methods = ['page', 'track', 'identify', 'instances', 'debug', 'on', 'off', 'once', 'ready', 'setUserProperties', 'setVisitorProperties', 'subscribe', 'unsubscribe'];
+      ttq.setAndDefer = function (t, e) {
+        t[e] = function () {
+          t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+      };
+      for (var i = 0; i < ttq.methods.length; i++) {
+        ttq.setAndDefer(ttq, ttq.methods[i]);
+      }
+      ttq.instance = function (t) {
+        var e = ttq._i[t] || [];
+        for (var n = 0; n < ttq.methods.length; n++) {
+          ttq.setAndDefer(e, ttq.methods[n]);
+        }
+        return e;
+      };
+      ttq.load = function (e, n) {
+        var i = 'https://analytics.tiktok.com/i18n/pixel/events.js';
+        (ttq._i = ttq._i || {}), (ttq._i[e] = []);
+        ttq._i[e]._u = i;
+        ttq._t = ttq._t || {};
+        ttq._t[e] = +new Date();
+        ttq._o = ttq._o || {};
+        ttq._o[e] = n || {};
+        var o = document.createElement('script');
+        (o.type = 'text/javascript'), (o.async = !0), (o.src = i);
+        var a = document.getElementsByTagName('script')[0];
+        a.parentNode.insertBefore(o, a);
+      };
+      ttq.load('TT-XXXXXXX');
+      ttq.page();
+    })(window, document, 'ttq');
+  </script>
+</head>
+<body>
+  <header class="promo-bar">
+    <div class="promo-content">
+      <span class="promo-icon">🎁</span>
+      <span>Bonus OFFERTS — Offre se termine dans <span id="promo-timer">05h 42min</span> ⏳</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-badge">🎁 Sac + Guide muscu OFFERTS — Offre limitée</div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>IronGrip™ V2 — Repoussez vos limites.</h1>
+          <p>Zéro ampoule. Zéro douleur. 100 % performance.</p>
+          <div class="hero-actions">
+            <button class="btn primary" data-scroll="#packs">Choisir mon pack</button>
+            <button class="btn secondary" data-scroll="#story">Découvrir l'histoire</button>
+          </div>
+          <div class="hero-bonus">Pochette + Guide PDF offerts automatiquement dans chaque commande.</div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-placeholder">
+            <img src="https://images.unsplash.com/photo-1579758629934-03503b5c3400?auto=format&fit=crop&w=800&q=80" alt="Athlètes utilisant IronGrip" />
+          </div>
+        </div>
+      </div>
+      <div class="color-swatches">
+        <span>Disponible en :</span>
+        <span class="swatch swatch-black" aria-label="Noir"></span>
+        <span class="swatch swatch-gray" aria-label="Gris"></span>
+        <span class="swatch swatch-rose" aria-label="Rose"></span>
+      </div>
+    </section>
+
+    <section class="benefits" id="benefits">
+      <h2>Ce qui fait la différence</h2>
+      <div class="benefit-grid">
+        <article class="benefit">
+          <span class="benefit-icon">🔒</span>
+          <h3>Adhérence maximale</h3>
+          <p>Bande silicone antidérapante pour une prise sûre même sous charge extrême.</p>
+        </article>
+        <article class="benefit">
+          <span class="benefit-icon">💪</span>
+          <h3>Zéro ampoule, zéro douleur</h3>
+          <p>Protège la paume et répartit la pression pour enchaîner les reps sans limite.</p>
+        </article>
+        <article class="benefit">
+          <span class="benefit-icon">🧼</span>
+          <h3>Lavable & durable</h3>
+          <p>Matériaux premium résistants à la sueur et lavables à l'eau tiède.</p>
+        </article>
+        <article class="benefit">
+          <span class="benefit-icon">🎯</span>
+          <h3>Design unisexe</h3>
+          <p>Ultra-flexible, 3 couleurs pour matcher ton style en salle.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="packs" id="packs">
+      <div class="section-heading">
+        <h2>Choisis ton pack IronGrip™ V2</h2>
+        <p>Option duo et mixte pour performer en couple ou entre partenaires d'entraînement.</p>
+      </div>
+      <div class="promo-code">
+        <label for="promo-input">Code promo :</label>
+        <div class="promo-field">
+          <input type="text" id="promo-input" placeholder="TEAM10" autocomplete="off" />
+          <button class="btn tertiary" id="apply-promo">Appliquer</button>
+        </div>
+        <p id="promo-message" role="status" aria-live="polite"></p>
+      </div>
+      <div class="pack-grid">
+        <article class="pack" data-plan="solo">
+          <div class="pack-header">
+            <h3>Solo</h3>
+            <p class="pack-subtitle">1 paire</p>
+          </div>
+          <p class="pack-price" data-base-price="19.90">19,90 €</p>
+          <ul class="pack-features">
+            <li>Protection complète paume</li>
+            <li>Silicone anti-glisse</li>
+            <li>Livraison 48–72h</li>
+          </ul>
+          <button class="btn pack-cta" data-plan="solo">Ajouter au panier</button>
+        </article>
+        <article class="pack featured" data-plan="duo">
+          <div class="pack-badge">⭐ Meilleur choix</div>
+          <div class="pack-header">
+            <h3>Duo</h3>
+            <p class="pack-subtitle">2 paires</p>
+          </div>
+          <p class="pack-price" data-base-price="29.90">29,90 €</p>
+          <ul class="pack-features">
+            <li>Équipe ton binôme</li>
+            <li>Prix avantageux</li>
+            <li>Guide PDF offert</li>
+          </ul>
+          <button class="btn pack-cta" data-plan="duo">Ajouter au panier</button>
+        </article>
+        <article class="pack" data-plan="his-her">
+          <div class="pack-header">
+            <h3>His &amp; Her</h3>
+            <p class="pack-subtitle">1 noir + 1 rose</p>
+          </div>
+          <p class="pack-price" data-base-price="34.90">34,90 €</p>
+          <ul class="pack-features">
+            <li>Duo mixte assorti</li>
+            <li>Design unisexe</li>
+            <li>Pochette de transport</li>
+          </ul>
+          <button class="btn pack-cta" data-plan="his-her">Ajouter au panier</button>
+        </article>
+      </div>
+      <div class="shipping-info">
+        <p>Livraison express depuis la France. Paiement sécurisé (Apple Pay, Google Pay, CB).</p>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-visual">
+        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80" alt="Athlètes homme et femme" />
+      </div>
+      <div class="story-text">
+        <h2>Né dans une salle de sport.</h2>
+        <p>Pensé pour ceux qui refusent d’abandonner. IronSkin protège ta peau pour que rien n’arrête ta progression.</p>
+        <p>Chaque paire IronGrip™ V2 est testée par des athlètes pour garantir adhérence et confort, séance après séance.</p>
+      </div>
+    </section>
+
+    <section class="placeholders">
+      <div class="placeholder reviews">
+        <h2>Ils en parlent</h2>
+        <p>Espace réservé aux reviews clients à venir.</p>
+      </div>
+      <div class="placeholder videos">
+        <h2>Vidéos UGC</h2>
+        <p>Ajoute bientôt tes contenus TikTok &amp; Reels ici.</p>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2>FAQ</h2>
+      <div class="accordion">
+        <details>
+          <summary>Comment ça tient ?</summary>
+          <p>Grâce à une bande silicone antidérapante. Se glisse entre doigts et paume.</p>
+        </details>
+        <details>
+          <summary>Quelle taille ?</summary>
+          <p>Taille unique. Ultra-flexible.</p>
+        </details>
+        <details>
+          <summary>Entretien ?</summary>
+          <p>Eau tiède + savon. Sécher à l’air libre.</p>
+        </details>
+        <details>
+          <summary>Livraison ?</summary>
+          <p>48–72h depuis la France. Satisfait ou remboursé 14 jours.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-payments">
+        <h3>Paiement sécurisé</h3>
+        <p>Apple Pay • Google Pay • Visa • Mastercard • Amex</p>
+      </div>
+      <div class="footer-contact">
+        <h3>Support</h3>
+        <a href="mailto:contact@ironskin.fr">contact@ironskin.fr</a>
+      </div>
+      <div class="footer-links">
+        <h3>Liens utiles</h3>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">CGV</a></li>
+          <li><a href="#">Politique retours</a></li>
+        </ul>
+      </div>
+      <div class="footer-socials">
+        <h3>Nous suivre</h3>
+        <div class="social-icons">
+          <a href="https://www.tiktok.com/" aria-label="TikTok">TikTok</a>
+          <a href="https://www.instagram.com/" aria-label="Instagram">Instagram</a>
+          <a href="https://www.youtube.com/" aria-label="YouTube">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="current-year"></span> IronSkin. Tous droits réservés.</p>
+  </footer>
+
+  <div class="sticky-cart" id="sticky-cart">
+    <div>
+      <strong>IronGrip™ V2</strong>
+      <span>Pochette + Guide offerts</span>
+    </div>
+    <button class="btn primary" data-scroll="#packs">Choisir mon pack</button>
+  </div>
+</body>
+</html>
