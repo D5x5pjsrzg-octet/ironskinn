@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+  <rect width="1000" height="800" rx="40" fill="#151821" />
+  <text x="50%" y="45%" fill="#00D084" font-size="60" font-family="Montserrat, sans-serif" text-anchor="middle">Unboxing</text>
+  <text x="50%" y="55%" fill="#F5F7FA" font-size="34" font-family="Inter, sans-serif" text-anchor="middle">Pochette + Guide offert</text>
+</svg>

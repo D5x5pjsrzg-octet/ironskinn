@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1d24" />
+      <stop offset="100%" stop-color="#2e313b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)" />
+  <text x="50%" y="45%" fill="#00D084" font-size="56" font-family="Montserrat, sans-serif" text-anchor="middle">Athlete</text>
+  <text x="50%" y="55%" fill="#F5F7FA" font-size="42" font-family="Inter, sans-serif" text-anchor="middle">IronGrip™ Focus</text>
+</svg>

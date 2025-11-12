@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suivi de commande – IronSkin</title>
+  <meta name="description" content="Suis ta commande IronSkin. Accède à ton suivi de livraison ou au portail client Shopify." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="utility-page">
+  <header class="promo-bar" data-timer="06:42:00">
+    <div class="promo-content">
+      <span class="promo-icon" aria-hidden="true">🎁</span>
+      <p>TEAM10 : -10 % sur IronGrip™ V2 aujourd'hui.</p>
+    </div>
+  </header>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="brand">IronSkin</a>
+      <nav class="main-nav">
+        <a href="/">Accueil</a>
+        <a href="irongrip.html">Produit</a>
+        <a href="story.html">Notre histoire</a>
+      </nav>
+      <a class="header-cta" href="irongrip.html">Commander</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="utility-hero" id="top">
+      <div class="container">
+        <h1>Suivre ma commande IronSkin</h1>
+        <p>Entre ton numéro de commande et ton email pour retrouver le statut de livraison. Le portail ci-dessous utilise le module Shopify natif.</p>
+      </div>
+    </section>
+
+    <section class="tracking-section">
+      <div class="container">
+        <div class="tracking-card">
+          <h2>Portail Shopify</h2>
+          <p>Intègre le bloc <strong>customer.order_status</strong> de Shopify ou insère le widget applications. Exemple :</p>
+          <pre><code>{% render 'order-tracking-form' %}</code></pre>
+          <form class="tracking-form" data-shopify-tracking>
+            <label>
+              Numéro de commande
+              <input type="text" name="order_number" placeholder="#IRSK1234" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="ton@email.com" required />
+            </label>
+            <button type="submit" class="btn primary">Suivre ma commande</button>
+          </form>
+          <p class="form-note">Ce formulaire est un placeholder. Connecte-le à ton flow Shopify ou à ton outil logistique préféré.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="/" class="brand">IronSkin</a>
+        <p>Besoin d'aide ? <a href="mailto:contact@ironskin.fr">contact@ironskin.fr</a></p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul>
+          <li><a href="irongrip.html">Produit</a></li>
+          <li><a href="story.html">Notre histoire</a></li>
+          <li><a href="account.html">Mon compte</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Légal</h3>
+        <ul>
+          <li><a href="#">CGV</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Politique de retour</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Réseaux</h3>
+        <ul class="socials">
+          <li><a href="https://www.tiktok.com/" rel="noreferrer">TikTok</a></li>
+          <li><a href="https://www.instagram.com/" rel="noreferrer">Instagram</a></li>
+          <li><a href="https://www.youtube.com/" rel="noreferrer">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="current-year"></span> IronSkin.</p>
+  </footer>
+
+  <div class="sticky-cart" id="sticky-cart">
+    <div>
+      <p class="sticky-title">IronGrip™ V2</p>
+      <p class="sticky-sub">Besoin de renfort ? Retour à la boutique.</p>
+    </div>
+    <a class="btn primary" href="irongrip.html">Commander</a>
+  </div>
+</body>
+</html>

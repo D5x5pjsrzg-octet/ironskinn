@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+  <defs>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="40" height="40">
+      <circle cx="8" cy="8" r="4" fill="#6B5CFF" opacity="0.35" />
+      <circle cx="28" cy="28" r="4" fill="#00D084" opacity="0.35" />
+    </pattern>
+  </defs>
+  <rect width="1000" height="800" fill="#111419" />
+  <rect x="80" y="80" width="840" height="640" rx="48" fill="url(#dots)" opacity="0.4" />
+  <text x="50%" y="52%" fill="#F5F7FA" font-size="48" font-family="Montserrat, sans-serif" text-anchor="middle">Texture Grip</text>
+</svg>
