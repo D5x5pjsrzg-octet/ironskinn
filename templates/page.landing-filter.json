@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-content",
+      "settings": {
+        "kicker": "Landing filtre robinet"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter-rich",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}

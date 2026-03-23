@@ -1,0 +1,112 @@
+{
+  "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_bar": true,
+          "message": "Livraison offerte dès 69 € · Garantie 30 jours · Installation en 30 secondes",
+          "countdown_days": 3,
+          "link": null,
+          "link_label": "Découvrir l’offre"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "brand_name": "HYDRYS",
+          "cta_label": "Voir la gamme",
+          "cta_link": "shopify://collections/all"
+        },
+        "blocks": {
+          "link_1": {
+            "type": "link",
+            "settings": {
+              "label": "Filtre robinet",
+              "url": "shopify://collections/all"
+            }
+          },
+          "link_2": {
+            "type": "link",
+            "settings": {
+              "label": "Gourde filtrante",
+              "url": "shopify://collections/all"
+            }
+          },
+          "link_3": {
+            "type": "link",
+            "settings": {
+              "label": "FAQ",
+              "url": "shopify://pages/faq"
+            }
+          },
+          "link_4": {
+            "type": "link",
+            "settings": {
+              "label": "Impact écologique",
+              "url": "shopify://pages/impact-ecologique"
+            }
+          }
+        },
+        "block_order": [
+          "link_1",
+          "link_2",
+          "link_3",
+          "link_4"
+        ]
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "brand_name": "HYDRYS",
+          "tagline": "L’eau pure, partout avec vous.",
+          "subtext": "Technologie de filtration premium, pensée pour les cuisines urbaines, les familles actives et les routines durables.",
+          "contact_title": "Conseillers HYDRYS",
+          "email": "bonjour@hydrys.fr",
+          "phone": "01 89 71 24 60",
+          "hours": "Lun–Ven · 9h–18h"
+        },
+        "blocks": {
+          "shop_1": {
+            "type": "shop_link",
+            "settings": {
+              "label": "Filtre robinet digital",
+              "url": "shopify://collections/all"
+            }
+          },
+          "shop_2": {
+            "type": "shop_link",
+            "settings": {
+              "label": "Bundles & cartouches",
+              "url": "shopify://collections/all"
+            }
+          },
+          "help_1": {
+            "type": "help_link",
+            "settings": {
+              "label": "Livraison & retours",
+              "url": "shopify://pages/livraison-retours"
+            }
+          },
+          "help_2": {
+            "type": "help_link",
+            "settings": {
+              "label": "Garantie",
+              "url": "shopify://pages/garantie"
+            }
+          }
+        },
+        "block_order": [
+          "shop_1",
+          "shop_2",
+          "help_1",
+          "help_2"
+        ]
+      }
+    },
+    "presets": {
+      "social_instagram": "https://instagram.com/hydrys",
+      "social_tiktok": "https://tiktok.com/@hydrys"
+    }
+  }
+}

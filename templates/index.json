@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-water",
+      "settings": {}
+    },
+    "proofs": {
+      "type": "logo-bar",
+      "settings": {}
+    },
+    "problem": {
+      "type": "problem-solution",
+      "settings": {}
+    },
+    "featured": {
+      "type": "featured-product-showcase",
+      "settings": {}
+    },
+    "range": {
+      "type": "product-grid-promo",
+      "settings": {}
+    },
+    "benefits": {
+      "type": "benefits-grid",
+      "settings": {}
+    },
+    "comparison": {
+      "type": "comparison-table",
+      "settings": {}
+    },
+    "how": {
+      "type": "how-it-works",
+      "settings": {}
+    },
+    "reviews": {
+      "type": "testimonials",
+      "settings": {}
+    },
+    "impact": {
+      "type": "ecology-impact",
+      "settings": {}
+    },
+    "blog": {
+      "type": "blog-featured",
+      "settings": {}
+    },
+    "newsletter": {
+      "type": "newsletter-rich",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "proofs",
+    "problem",
+    "featured",
+    "range",
+    "benefits",
+    "comparison",
+    "how",
+    "reviews",
+    "impact",
+    "blog",
+    "newsletter"
+  ]
+}
