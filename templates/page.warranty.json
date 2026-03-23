@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-content",
+      "settings": {
+        "kicker": "Garantie"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter-rich",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}

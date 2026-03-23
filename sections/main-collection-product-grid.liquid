@@ -1,0 +1,3 @@
+<section class="section section--tight"><div class="page-width card-grid">{% for product in collection.products %}<article class="card reveal-on-scroll"><p class="kicker">{{ product.type | default: 'Produit HYDRYS' }}</p><h3><a href="{{ product.url }}">{{ product.title }}</a></h3><p class="text-muted">{{ product.description | strip_html | truncate: 120 }}</p><strong>{{ product.price | money }}</strong><a class="button button--secondary" href="{{ product.url }}">Voir le produit</a></article>{% else %}<div class="card"><p>Aucun produit à afficher pour le moment.</p></div>{% endfor %}</div></section>
+{% schema %}{"name": "Main collection product grid", "presets": [{"name": "Main collection product grid"}]}
+{% endschema %}

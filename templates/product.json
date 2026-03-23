@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {}
+    },
+    "details": {
+      "type": "product-details-tabs",
+      "settings": {}
+    },
+    "faq": {
+      "type": "faq-content",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "faq"
+  ]
+}

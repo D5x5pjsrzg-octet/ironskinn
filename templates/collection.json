@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {}
+    },
+    "grid": {
+      "type": "main-collection-product-grid",
+      "settings": {}
+    },
+    "faq": {
+      "type": "faq-content",
+      "settings": {
+        "kicker": "Guide d’achat",
+        "title": "Aider le choix en collection",
+        "text": "Répondez ici aux objections liées à la collection ou au besoin d’usage."
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "grid",
+    "faq"
+  ]
+}

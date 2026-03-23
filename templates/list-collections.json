@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "intro": {
+      "type": "main-page-content",
+      "settings": {
+        "kicker": "Catalogue"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter-rich",
+      "settings": {}
+    }
+  },
+  "order": [
+    "intro",
+    "newsletter"
+  ]
+}
